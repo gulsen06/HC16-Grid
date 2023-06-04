@@ -1,0 +1,68 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 100px);
+}
+.content {
+  border: 1px solid black;
+}
+.content1 {
+  background-color: gainsboro;
+  grid-area: 2/1/6/2;
+}
+.content2 {
+  background-color: brown;
+  grid-area: 3/1/5/2;
+  background-image: url("https://picsum.photos/id/431/600/400");
+  background-size: cover;
+  background-position: center;
+}
+.content3 {
+  background-color: aqua;
+  grid-area: 1/2/3/4;
+  background-image: url("https://picsum.photos/id/684/600/400");
+  background-size: cover;
+  background-position: center;
+}
+.content4 {
+  background-color: rgb(255, 235, 205, 0.72);
+  grid-area: 2/3/3/4;
+}
+.content5 {
+  background-color: cyan;
+  grid-area: 1/4/3/6;
+  background-image: url("https://picsum.photos/id/318/600/400");
+  background-size: cover;
+  background-position: center;
+}
+.content6 {
+  background-color: rgb(255, 235, 205, 0.72);
+  grid-area: 2/5/3/6;
+}
+.content34 {
+  background-color: greenyellow;
+  background-image: url("https://picsum.photos/id/548/600/400");
+  background-size: cover;
+  background-position: center;
+  grid-area: 1/6/3/8;
+}
+.content8 {
+  background-color: rgb(255, 235, 205, 0.72);
+  grid-area: 2/7/3/8;
+  z-index: 1;
+}
+.content10 {
+  background-color: greenyellow;
+  background-image: url("https://picsum.photos/id/1033/600/400");
+  background-size: cover;
+  background-position: center;
+  grid-column: 2 / span 5;
+  grid-row: 3 / span 3;
+  color: rgb(227, 240, 40);
+  font-size: 3rem;
+  text-shadow: 5px 5px 5px honeydew;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
